@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "sourceMap": true, //Precisei passar para true, pois o estava exigindo a tipagem de Buffer para file
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "typeRoots": ["./src/@types", "node_modules/@types"]
+  }
+}
