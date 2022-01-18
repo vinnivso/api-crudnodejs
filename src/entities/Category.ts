@@ -1,5 +1,5 @@
 import {Entity, Column, CreateDateColumn, PrimaryColumn} from "typeorm"
-import ManageIdentity from "../services/ManageIdentity"
+import ManageIdentity from "./ManageIdentity"
 
 @Entity("categories")
 export class Category {

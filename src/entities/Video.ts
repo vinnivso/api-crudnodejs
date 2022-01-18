@@ -1,5 +1,5 @@
 import {Entity, Column, CreateDateColumn, PrimaryColumn, ManyToOne, JoinColumn} from "typeorm"
-import ManageIdentity from "../services/ManageIdentity"
+import ManageIdentity from "./ManageIdentity"
 import { Category } from "./Category"
 
 @Entity("videos")
