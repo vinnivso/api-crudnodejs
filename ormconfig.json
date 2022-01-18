@@ -1,0 +1,6 @@
+{
+  "cli": {
+      "migrations":"./src/database/migrations/*.ts",
+      "migrationsDir": "./src/database/migrations"
+  }
+}
