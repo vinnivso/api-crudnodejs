@@ -1,16 +1,8 @@
-import {Request, Response, Router} from "express"
+import { Router } from "express"
+import { CreateCategoryController } from "./controllers/CreateCategoryController"
 
-const router = Router()
+const routes = Router()
 
-// router.post("/", async (request: Request, response: Response) => {
-//   try {
+routes.post("/categories", new CreateCategoryController().handler)
 
-
-//   } catch (e) {
-//     const error = e as Error
-//     console.log(error)
-//     response.json({message: error.message})
-//   }
-// })
-
-export {router}
+export {routes}
