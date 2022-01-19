@@ -55,10 +55,10 @@ TYPEORM_USERNAME = "Name of the user to connect with"<br/>
 TYPEORM_PASSWORD = "The user's password"<br/>
 TYPEORM_DATABASE = "The database to use"<br/>
 TYPEORM_PORT = "port running your DB"<br/>
-TYPEORM_MIGRATIONS = src/database/migrations/*.ts
-TYPEORM_MIGRATIONS_DIR = src/database/migrations
-TYPEORM_ENTITIES = src/entities/*.ts
-TYPEORM_ENTITIES_DIR = src/entities
+TYPEORM_MIGRATIONS = src/database/migrations/*.ts<br/>
+TYPEORM_MIGRATIONS_DIR = src/database/migrations<br/>
+TYPEORM_ENTITIES = src/entities/*.ts<br/>
+TYPEORM_ENTITIES_DIR = src/entities<br/>
 
 #### Solução
 Rode os seguintes comandos dentro da pasta que estiver com o package.json.
