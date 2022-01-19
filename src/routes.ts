@@ -2,6 +2,7 @@ import { Router } from "express"
 import { CreateCategoryController } from "./controllers/CreateCategoryController"
 import { CreateVideoController } from "./controllers/CreateVideoController"
 import { DeleteCategoryController } from "./controllers/DeleteCategoryController"
+import { DeleteVideoController } from "./controllers/DeleteVideoController"
 import { GetAllCategoryController } from "./controllers/GetAllCategoryController"
 import { GetAllVideoController } from "./controllers/GetAllVideoController"
 import { UpdateCategoryController } from "./controllers/UpdateCategoryController"
@@ -23,5 +24,7 @@ routes.put("/categories/:id", new UpdateCategoryController().handler)
 
 routes.post("/videos", new CreateVideoController().handler)
 routes.get("/videos", new GetAllVideoController().handler)
+routes.delete("/categories/:id", new DeleteVideoController().handler)
+
 
 export {routes}
