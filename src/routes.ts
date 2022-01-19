@@ -24,7 +24,7 @@ routes.put("/categories/:id", new UpdateCategoryController().handler)
 
 routes.post("/videos", new CreateVideoController().handler)
 routes.get("/videos", new GetAllVideoController().handler)
-routes.delete("/categories/:id", new DeleteVideoController().handler)
+routes.delete("/videos/:id", new DeleteVideoController().handler)
 
 
 export {routes}
