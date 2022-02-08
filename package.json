@@ -1,6 +1,9 @@
 {
-   "name": "api-crudnodejs",
+   "name": "api-nodejs-crud",
    "version": "1.0.0",
+   "main": "index.js",
+   "repository": "git@github.com:vinnivso/api-nodejs-crud.git",
+   "author": "vinnivso <vinnivsob@gmail.com>",
    "license": "MIT",
    "scripts": {
       "dev": "clear && nodemon ./src/server.ts",
