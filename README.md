@@ -1,4 +1,4 @@
-# api-nodejs-crud
+# backend-crud-api
 CRUD com TypeORM - Typescript Back End
 
 #### Funcionalidades - Categorias
